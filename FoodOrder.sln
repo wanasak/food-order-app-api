@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodOrder.API", "FoodOrder.API\FoodOrder.API.csproj", "{C630E6E5-C484-4095-B39A-6052DA11D4D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodOrder.Model", "FoodOrder.Model\FoodOrder.Model.csproj", "{FE46583F-8830-45FB-BC57-F4B8C3D58770}"
+EndProject
+Project("{48671F52-3AA2-428C-953B-F471E84BBC9F}") = "FoodOrderData", "FoodOrderData\FoodOrderData.csproj", "{A7E13E52-3A47-446E-9C16-23192E369351}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C630E6E5-C484-4095-B39A-6052DA11D4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C630E6E5-C484-4095-B39A-6052DA11D4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C630E6E5-C484-4095-B39A-6052DA11D4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C630E6E5-C484-4095-B39A-6052DA11D4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE46583F-8830-45FB-BC57-F4B8C3D58770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE46583F-8830-45FB-BC57-F4B8C3D58770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE46583F-8830-45FB-BC57-F4B8C3D58770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE46583F-8830-45FB-BC57-F4B8C3D58770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E13E52-3A47-446E-9C16-23192E369351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E13E52-3A47-446E-9C16-23192E369351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E13E52-3A47-446E-9C16-23192E369351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E13E52-3A47-446E-9C16-23192E369351}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

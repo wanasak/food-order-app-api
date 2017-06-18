@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore">
+      <Version>1.1.2</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational">
+      <Version>1.1.2</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FoodOrder.Model\FoodOrder.Model.csproj">
+      <Project>{FE46583F-8830-45FB-BC57-F4B8C3D58770}</Project>
+      <Name>FoodOrder.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
